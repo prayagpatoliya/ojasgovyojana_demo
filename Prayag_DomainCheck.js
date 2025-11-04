@@ -10,9 +10,7 @@
   const allowedPatterns = [
     "kevorao.com",      // root domain
     "*.kevorao.com",    // any subdomain like app.kevorao.com
-    ".kevorao.com",     // alternate syntax for wildcard
-    "localhost",        // for local testing
-    "127.0.0.1"         // local IP
+    ".kevorao.com"     // alternate syntax for wildcard
   ];
 
   // Normalize host (remove port, lowercase, etc.)
